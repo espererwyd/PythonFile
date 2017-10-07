@@ -1,4 +1,5 @@
 from sys import argv
+# import argv modules from system
 
 script, user_name = argv
 prompt = 'Your answer > '
