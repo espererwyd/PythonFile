@@ -5,7 +5,7 @@ print('\n newlines and \t tabs.')
 poem = """
 \tThe lovely world
 with magic so firmly planted
-cannor discern \n the needs of lovely
+cannot discern \n the needs of lovely
 nor comprehend passion from intuition
 and requires an explanation
 \n\twhere there is none.
@@ -37,6 +37,6 @@ print(f"We'd have {beans} beans, {jars} jars and {crates} crates.")
 start_point = start_point / 10
 
 print("We can also do that this way:")
-formula = secret_formula(start_point)
+formula = secret_formula(start_point) # the formula contains three variables
 # this is an easy way to apply a list to a format string
-print("We'd have {} beans, {} jars and {} crates.".format(*secret_formula(start_point))) # to be checked 
+print("We'd have {} beans, {} jars and {} crates.".format(*formula)) # * indicates formula should be treated as a list
