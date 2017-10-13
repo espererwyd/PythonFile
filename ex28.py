@@ -11,7 +11,7 @@ True or 1 == 1 # True
 "test" != "testing" # True
 "test" == 1 # False
 not (True and False) # True
-not (1 == 1 and 0 != 1) # True
+not (1 == 1 and 0 != 1) # False
 not (10 == 1 or 3 == 4) # True
 not (1 != 10 or 3 == 4) # False
 not ("testing" == "testing" and "Zed" == "Cool Guy") # True

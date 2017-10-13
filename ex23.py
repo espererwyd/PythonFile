@@ -22,4 +22,4 @@ languages = open("languages.txt", encoding = "utf-8") # open the languages.txt f
 
 main(languages, encoding, error) # call funtion
 
-# Decode Bytes, Encode Strings #DBES
+# Decode Bytes, Encode Strings # DBES

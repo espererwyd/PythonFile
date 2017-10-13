@@ -39,3 +39,10 @@ print(list[1:]) #1以后的 [3, 4, 5, 7, 8, 9, 6]
 print(list[:-6]) #-6之前的 #[1,3]
 print(list[3:-4]) #3到-4之间的 # [5]
 # 包含区间前开后闭
+
+def sort_words(list):
+    list.sort()
+    return list
+
+list_sorted = sort_words(fruits)
+print(list_sorted)
