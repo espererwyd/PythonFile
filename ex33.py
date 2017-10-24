@@ -39,4 +39,4 @@ for i in numbers:
 print("So the list is: ", numbers)
 
 # A for-loop can only iterate (loop) over collections of things.
-# A while-loop can do any kind of iteration (looping) you want
+# A while-loop can do any kind of iteration (looping) you want.
